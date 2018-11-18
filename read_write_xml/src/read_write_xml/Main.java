@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+
+import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.io.OutputFormat;
@@ -16,8 +18,10 @@ import org.dom4j.io.XMLWriter;
 public class Main {
 	
 	public static void main(String[] args) throws IOException {
-		//String Ciconfig = args[0];
-		//String task = args[1];
+		//String new_sync_dir = args[0];
+		String new_sync_dir = ";q/x";
+		//String Ciconfig = args[1];
+		//String task = args[2];
 		String CIconfig = "CIconfig.xml";
 		String cicloud_task = "task.xml";
 		
@@ -28,7 +32,10 @@ public class Main {
 		ArrayList<String> Actual_Task_pclint_list = analysis_cicloud_task(cicloud_task);
 		
 		//云构建任务与基线任务比较，增减更新任务节点
-		Update_Node(CI_Task_pclint_list,Actual_Task_pclint_list,cicloud_task);
+		//Update_Node(CI_Task_pclint_list,Actual_Task_pclint_list,cicloud_task);
+		
+		//修改agent机同步目录
+		change_attr(cicloud_task,new_sync_dir);
 		
 	}
 	
@@ -176,6 +183,30 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public static void change_attr(String cicloud_task, String new_sync_dir) {
+
+		try {
+			SAXReader reader = new SAXReader();
+			File task_file = new File(cicloud_task);
+			Document document = reader.read(task_file);
+			Element root_node = document.getRootElement();
+			System.out.println("cicloud_task根节点名" + root_node.getName());
+			List<Element> OneLayer_NodesList = root_node.elements();
+			for (Element OneLayer_SubNode : OneLayer_NodesList) {
+				String attr_value = OneLayer_SubNode.attributeValue("dir");
+				Attribute attr = OneLayer_SubNode.attribute("dir");
+				attr.setValue(attr_value + attr.getValue());
+				System.out.println("同步目录: " + attr.getValue());
+
+			}
+			
+		} catch (DocumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 
 }

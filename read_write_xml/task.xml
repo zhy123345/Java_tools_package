@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <schedule> 
-  <agenttask bignode_task="pclint_1" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00"> 
+  <agenttask bignode_task="pclint_1" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00" dir="a/;b/"> 
     <task node_task="pclint_ptn" rsyncdir="current/code_1"/> 
 	<task node_task="pclint_chm" rsyncdir="current/code_1"/> 
   </agenttask>  
-  <agenttask bignode_task="pclint_2" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00"> 
+  <agenttask bignode_task="pclint_2" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00" dir="c/;d/"> 
     <task node_task="pclint_ppp" rsyncdir="current/code_3"/>  
     <task node_task="pclint_frm" rsyncdir="current/code_4"/> 
   </agenttask> 
-    <agenttask bignode_task="pclint_2" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00"> 
+    <agenttask bignode_task="pclint_2" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00" dir="c/;d/"> 
 	<task node_task="pclint_ans" rsyncdir="current/code_4" />
-	<task node_task="pclint_qos" rsyncdir="current/code_3" />
+	<task node_task="pclint_qos" rsyncdir="current/code_3" /> 
   </agenttask> 
 </schedule>
