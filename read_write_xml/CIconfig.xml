@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project_Numbers>
+  <project plugin="pclint1" var="/etc/profile_1" />
+  <project plugin="pclint2" var="/etc/profile_2" />
+  <project plugin="pclint3" var="/etc/profile_3" />
+  <project plugin="pclint4" var="/etc/profile_4" />
+  <project plugin="pclint5" var="/etc/profile_5" />
+  <project plugin="pclint6" var="/etc/profile_6" />
+
+</project_Numbers>

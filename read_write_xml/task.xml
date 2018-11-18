@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personnel>
+  <person id="Big.Boss" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00">
+	<task tool="lnt1" dir="rsync" />
+  </person>
+
+  <person id="Big.Boss" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00">
+	<task tool="lnt2" dir="rsync" />
+  </person>
+  
+  <person id="Big.Boss" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00">
+	<task tool="lnt3" dir="rsync" />
+  </person>
+
+</personnel>
