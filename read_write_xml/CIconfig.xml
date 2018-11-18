@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pclint_task>
   <module name="pclint_ptn" var="/etc/profile_1" />
-  <module name="pclint_chm" var="/etc/profile_2" />
+  <!--module name="pclint_chm" var="/etc/profile_2" /-->
   <module name="pclint_ppp" var="/etc/profile_3" />
   <module name="pclint_frm" var="/etc/profile_4" />
-  <module name="pclint_qos" var="/etc/profile_5" />
+  <!--module name="pclint_qos" var="/etc/profile_5" /-->
   <!--module name="pclint_ans" var="/etc/profile_6" /-->
 
 </pclint_task>
