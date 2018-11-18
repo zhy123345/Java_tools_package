@@ -5,6 +5,6 @@
   <module name="pclint_ppp" var="/etc/profile_3" />
   <module name="pclint_frm" var="/etc/profile_4" />
   <module name="pclint_qos" var="/etc/profile_5" />
-  <module name="pclint_ans" var="/etc/profile_6" />
+  <!--module name="pclint_ans" var="/etc/profile_6" /-->
 
 </pclint_task>
