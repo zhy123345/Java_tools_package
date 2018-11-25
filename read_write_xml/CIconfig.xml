@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pclint_task>
-  <module name="pclint_ptn" var="/etc/profile_1" />
-  <!--module name="pclint_chm" var="/etc/profile_2" /-->
-  <module name="pclint_ppp" var="/etc/profile_3" />
-  <module name="pclint_frm" var="/etc/profile_4" />
-  <!--module name="pclint_qos" var="/etc/profile_5" /-->
-  <!--module name="pclint_ans" var="/etc/profile_6" /-->
-
+  <module name="pclint_1_1" var="/etc/profile_1" />
+  <module name="pclint_1_2" var="/etc/profile_2" />
+  
+  <module name="pclint_2_1" var="/etc/profile_3" />
+  <!--module name="pclint_2_2" var="/etc/profile_4" /-->
+  
+  <!--module name="pclint_3_1" var="/etc/profile_5" /-->
+  <!--module name="pclint_3_2" var="/etc/profile_6" /-->
+  
+  <module name="pclint_4_1" var="/etc/profile_4" />
+  <module name="pclint_4_2" var="/etc/profile_4" />
+  
+  <module name="pclint_5_1" var="/etc/profile_4" />
+  <module name="pclint_5_2" var="/etc/profile_4" />
+  
+  <module name="pclint_6_1" var="/etc/profile_4" />
+  <module name="pclint_6_2" var="/etc/profile_4" />
 </pclint_task>
+
+

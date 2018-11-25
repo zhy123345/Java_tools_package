@@ -1,16 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<cicloudjob>
+	
+	<scm>
+	
+	</scm>
 
-<schedule> 
-  <agenttask bignode_task="pclint_1" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00" dir="a/;b/"> 
-    <task node_task="pclint_ptn" rsyncdir="current/code_1"/> 
-	<task node_task="pclint_chm" rsyncdir="current/code_1"/> 
-  </agenttask>  
-  <agenttask bignode_task="pclint_2" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00" dir="c/;d/"> 
-    <task node_task="pclint_ppp" rsyncdir="current/code_3"/>  
-    <task node_task="pclint_frm" rsyncdir="current/code_4"/> 
-  </agenttask> 
-    <agenttask bignode_task="pclint_2" age="1" x="4" d="1999-05-03" dt="1999-05-31T13:20:00-05:00" dir="c/;d/"> 
-	<task node_task="pclint_ans" rsyncdir="current/code_4" />
-	<task node_task="pclint_qos" rsyncdir="current/code_3" /> 
-  </agenttask> 
-</schedule>
+	<agentTasks>
+	
+		<agenttask bigtask="code_1" rsyncdir="V8R6C00"> 
+			<task plugin="compile" name="code_1_1" /> 
+			<task plugin="compile" name="code_1_2" /> 
+		</agenttask>  
+		
+		<agenttask bigtask="code_2" rsyncdir="V8R6C00/plateform" > 
+			<task plugin="compile" name="code_2_1" /> 
+			<task plugin="compile" name="code_2_2" /> 
+		</agenttask>  
+		
+		<agenttask bigtask="code_3" rsyncdir="V8R6C00/ROUTER" > 
+			<task plugin="compile" name="code_3_1" /> 
+			<task plugin="compile" name="code_3_2" /> 
+		</agenttask>  
+		
+		<agenttask bigtask="res_1" rsyncdir="V8R6C00/a/1" > 
+			<task plugin="compile" name="res_1" /> 
+			<task plugin="compile" name="res_2" /> 
+		</agenttask>  
+		
+		<agenttask bigtask="res_2" rsyncdir="V8R6C00/a/2" > 
+			<task plugin="compile" name="res_2_1" /> 
+			<task plugin="compile" name="res_2_2" /> 
+		</agenttask>  
+		
+		<agenttask bigtask="res_3" rsyncdir="V8R6C00/a/3"> 
+			<task plugin="compile" name="res_3_1" /> 
+			<task plugin="compile" name="res_3_2" /> 
+		</agenttask>
+		
+		<agenttask bigtask="pclint_1" rsyncdir="V8R6C00/b/1"> 
+			<task plugin="pclint" name="pclint_1_1" module="pclint_1_1"/> 
+			<task plugin="pclint" name="pclint_1_2" module="pclint_1_2"/> 
+		</agenttask>  
+		
+		<agenttask bigtask="pclint_2" rsyncdir="V8R6C00/b/2"> 
+			<task plugin="pclint" name="pclint_2_1" module="pclint_2_1"/> 
+			<task plugin="pclint" name="pclint_2_2" module="pclint_2_2"/> 
+		</agenttask>  
+		
+		<agenttask bigtask="pclint_3" rsyncdir="V8R6C00/b/3"> 
+			<task plugin="pclint" name="pclint_3_1" module="pclint_3_1"/> 
+			<task plugin="pclint" name="pclint_3_2" module="pclint_3_2"/> 
+		</agenttask>  
+
+	</agentTasks>
+	
+	
+	<schedule>
+	
+		<concurrent>
+		
+		
+		</concurrent>
+
+	</schedule>
+	
+	
+</cicloudjob>
