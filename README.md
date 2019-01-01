@@ -12,3 +12,4 @@ Java读取文件综合：https://blog.csdn.net/Lv_1093964643/article/details/827
 Java按行读取文件的几种方式：https://blog.csdn.net/milletGuo/article/details/80144290
 Java读取文件字符流和字节流，以及写入文件的方式：https://blog.csdn.net/liqi_q/article/details/78233195
 Java读取文件转换字符集编码并写入写的文件中：https://blog.csdn.net/Lv_1093964643/article/details/82757625
+Java读取文件FileInputStream()方法字符集编码问题：https://blog.csdn.net/u014424628/article/details/49430783
