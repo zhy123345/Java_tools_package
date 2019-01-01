@@ -16,3 +16,7 @@ Java读取文件的综合各种方法（不考虑字符集编码）：https://bl
 **Java读取文件的FileInputStream()方法，字符集编码解码原理：https://blog.csdn.net/u014424628/article/details/49430783
 
 Java字节流和字符流区别（理论）：https://www.cnblogs.com/xs-yqz/p/4552864.html
+
+C#使用FileStream类创建和写入文件：http://www.cnblogs.com/akwwl/p/3240813.html
+http://www.runoob.com/csharp/csharp-text-files.html
+https://www.cnblogs.com/best/p/6878001.html#_label0
