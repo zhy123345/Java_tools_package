@@ -14,3 +14,5 @@ Java读取文件的综合各种方法（不考虑字符集编码）：https://bl
 **Java字符流、字节流及对应的按行读取文件：https://blog.csdn.net/Lv_1093964643/article/details/82757625
 **Java读取文件转换字符集编码并写入新的文件中：https://blog.csdn.net/yaerfeng/article/details/56006802?utm_source=blogxgwz2
 **Java读取文件的FileInputStream()方法，字符集编码解码原理：https://blog.csdn.net/u014424628/article/details/49430783
+
+Java字节流和字符流区别（理论）：https://www.cnblogs.com/xs-yqz/p/4552864.html
