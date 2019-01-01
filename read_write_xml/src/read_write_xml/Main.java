@@ -1,11 +1,8 @@
 package read_write_xml;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 
 import org.dom4j.Attribute;
 import org.dom4j.Document;
@@ -17,8 +14,6 @@ import org.dom4j.Element;
 import java.util.ArrayList;
 import java.util.List;
 import org.dom4j.io.XMLWriter;
-
-import com.sun.beans.decoder.DocumentHandler;
 
 public class Main {
 	

@@ -87,15 +87,70 @@ public class fourth_chapter {
 		 System.out.println("得到一周的第几天： " + now_2);
 		 
 		 /**4.3用户自定义类*/
-		 //Java关于自定义类的规定：
-		 /*1.每个Java文件只能有一个公有类 public class，可以有若干的非共有类class
-		  *2.
-		  * */
-		 class employee {
-			 
-			 
+		 /*1.Java关于自定义类的规定：每个Java文件只能有一个公有类 public class，可以有若干的非共有类class；
+		  *2.Java一个完整的程序项目是由若干类组合在一起，只有一个main方法*/
+		 
+		 //4.3.1下面是关于用户自定义类的例子，非常重要经典，里面牵扯到很多语法概念；详情分析见示例后面
+		 Employee staff_obj = new Employee("carl",75000,1987,12,15);
+		 /*这行代码只为说明根据类创建对象时，可以通过自定义类中的构造方法Employee()，初始化对象属性(即对象的变量)；
+		  *类似于python中面向对象的__init__方法，在创建对象时就可以直接传入实参*/
+		 Employee[] staff = new Employee[3];
+		 /*创建一个数组对象变量，数据元素类型是自定义的Employee类型*/
+		 staff[0] = new Employee("carl",75000,1987,12,15);
+		 staff[1] = new Employee("harry",50000,1989,10,1);
+		 staff[2] = new Employee("tony",40000,1990,3,15);
+		 
+		 for (Employee e : staff) {
+			 e.raiseSalary(5);
 		 }
 		 
-	}
-
+		 for (Employee e : staff) {
+			 System.out.println(
+					 "name=" + e.getName()+
+					 ",salary=" + e.getSalary()+
+					 ",hireDay=" + e.getHireday());
+		 }
+	 }
 }
+
+class Employee {//非共有类Employee和共有类fourth_chapter类是平级
+	//定义类的私有属性
+	private String name;
+	private double salary;
+	private Date hireday;
+	
+	public Employee(String n, double s, int year, int month, int day) {
+		/*Employee()是构造方法，Java规定要和类名相同，并且可以不加void修饰符；作用是初始化类属性的值*/
+		/**构造方法很重要，重点掌握**/
+		//String name = n;//这里可以研究一下创建的实例如何访问实例属性，这个类中全是访问类的私有属性
+		
+		this.name = n;//也可以不加this
+		salary = s;
+		GregorianCalendar calendar = new GregorianCalendar(year,month-1,day);
+		hireday = calendar.getTime();
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public Date getHireday() {
+		return hireday;
+	}
+			 
+	public void raiseSalary(double byPersent) {
+		double raise = salary * byPersent / 100;
+		salary +=raise;
+	}
+}
+
+//关于上面自定类示例的详细分析和说明
+//4.3.2多个源文件
+/*1.在本源文件中包含了两个类fourth_chapter和Employee；也可以把每个类存放在一个单独的源文件中，即Employee在Employee.java文件中；
+ *2.*/
+
+
+
+

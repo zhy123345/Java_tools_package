@@ -1,10 +1,10 @@
-package collection_operation;
+package modules;
 
 import java.util.ArrayList;
 
-public class Array_operation {
+public class ArrayList_operation {
 	
-	public static void main(String[] args) {
+	public static void Differential_Set() {
 		ArrayList<String> List_1 = new ArrayList<String>();
 		List_1.add("q");
 		List_1.add("w");
@@ -30,4 +30,5 @@ public class Array_operation {
 		StringBuilder new_array = new StringBuilder();
 		System.out.println(new_array);
 	}
+	
 }
