@@ -19,6 +19,8 @@ Java字节流和字符流区别（理论）：https://www.cnblogs.com/xs-yqz/p/4
 
 C#执行windows命令的程序，比较详细的解释：https://shaynerain.com/c%E8%B0%83%E7%94%A8cmd%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4%E8%8E%B7%E5%8F%96%E8%BF%94%E5%9B%9E%E5%80%BC/
 
+C#执行windows命令的程序，比较详细的解释：https://www.cnblogs.com/babycool/p/3570648.html
+
 C#使用FileStream类创建和写入文件：http://www.cnblogs.com/akwwl/p/3240813.html
 
 
