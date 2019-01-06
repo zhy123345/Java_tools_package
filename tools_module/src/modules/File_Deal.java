@@ -26,7 +26,6 @@ public class File_Deal {
 		//读取文件
 		StringBuffer buffer_obj = new StringBuffer("");
 		ArrayList<String> file_content = new ArrayList<String>();
-		
 		String filename = "Haproxy_Keepalived.txt";
 		File file = new File(filename);
 		String tempStr = "";
@@ -47,7 +46,7 @@ public class File_Deal {
 		System.out.println(buffer_obj.toString());
 		System.out.println(file_content);
 		
-		//写入新的文件
+		//写入新的文件，可设置写入的字符集编码，作为字符流写入
 		String aa = "MD5_" + file.getPath();
 		File new_file = new File(aa);
 		try {
@@ -59,8 +58,6 @@ public class File_Deal {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-		
 	}
 	
 }
