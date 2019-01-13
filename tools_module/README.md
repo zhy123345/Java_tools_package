@@ -30,3 +30,6 @@ https://www.cnblogs.com/best/p/6878001.html#_label0
 https://www.cnblogs.com/researcher/p/4989395.html
 
 https://www.cnblogs.com/xielong/p/6187308.html
+
+
+windows命令转换默认字符集：https://blog.csdn.net/iteye_15549/article/details/82607259
