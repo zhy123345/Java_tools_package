@@ -11,3 +11,4 @@ Jenkins多个job并发执行：https://blog.csdn.net/sunsgne_AC/article/details/
                       https://github.com/jenkinsci/tikal-multijob-plugin
                       https://www.iyunv.com/thread-433232-1-1.html
 jenkins-multijob-plugin清华大学镜像站：http://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/jenkins-multijob-plugin/1.16/jenkins-multijob-plugin.hpi
+                      https://www.cnblogs.com/cocoat/p/7606447.html
