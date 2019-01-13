@@ -8,3 +8,4 @@ JSON不同格式的不同解析方法：https://www.cnblogs.com/sunnywindycloudy
 
 Jenkins多个job并发执行：https://blog.csdn.net/sunsgne_AC/article/details/80098231
                       https://blog.csdn.net/alangshan/article/details/83413018
+                      https://github.com/jenkinsci/tikal-multijob-plugin
