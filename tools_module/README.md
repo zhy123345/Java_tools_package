@@ -14,6 +14,8 @@ Java读取文件的综合各种方法（不考虑字符集编码）：https://bl
 
 Java字节流和字符流区别（理论）：https://www.cnblogs.com/xs-yqz/p/4552864.html
 
+java写入文件的三种方法：https://www.cnblogs.com/x_wukong/p/4679116.html
+
 C#读取文件按字节读取：https://blog.csdn.net/c840136358/article/details/6323969
 
 C#执行windows命令的程序，比较详细的解释：https://shaynerain.com/c%E8%B0%83%E7%94%A8cmd%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4%E8%8E%B7%E5%8F%96%E8%BF%94%E5%9B%9E%E5%80%BC/
