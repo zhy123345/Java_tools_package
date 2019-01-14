@@ -9,7 +9,8 @@ log4j第三方包地址：https://logging.apache.org/log4j/2.x
 java生成MD5：String md5 = DigestUtils.md5Hex(builder.toString().getBytes("GBK"));
 第三方jar包：commons-codec-1.8.jar
 解析json数据的jar包：fastjson-1.2.4.jar
-数据库操作的jar包：sqljdbc41.jar    jdom2-2.0.5.jar
+数据库操作的jar包：sqljdbc41.jar
+解析XML文件的包：jdom2-2.0.5.jar
 
 Java读取文件字符流和字节流（只看理论说明）：https://blog.csdn.net/liqi_q/article/details/78233195
 Java读取文件的综合各种方法（不考虑字符集编码）：https://blog.csdn.net/milletGuo/article/details/80144290
