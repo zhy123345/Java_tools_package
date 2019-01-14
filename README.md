@@ -23,3 +23,5 @@ jenkins-multijob-plugin清华大学镜像站：http://mirrors.tuna.tsinghua.edu.
                       https://www.cnblogs.com/cocoat/p/7606447.html
 
 jenkins备份工程文件：https://www.cnblogs.com/zhaoqingqing/p/6607134.html?utm_source=itdadao&utm_medium=referral
+
+java关闭数据库为什么rs != null：https://blog.csdn.net/mql0825123/article/details/40430697
