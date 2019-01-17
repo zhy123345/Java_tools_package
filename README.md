@@ -1,4 +1,6 @@
 # 
+java接口类的说明：https://www.douban.com/note/61810488/
+
 
 python第三方包官方地址：https://pypi.org/project/
 \\100.120.195.142\d$，如果D盘开启共享，可用此方式访问
