@@ -3,7 +3,7 @@
 
 常用开源工具源码地址：
 java 中Arraylist 赋值给另一个 ArrayList:https://blog.csdn.net/pengzhisen123/article/details/79705263
-Jenkins的project权限控制：https://www.cnblogs.com/Eivll0m/p/6734076.html
+Jenkins的project权限控制：https://www.cnblogs.com/Eivll0m/p/6734076.html    https://www.cnblogs.com/zz0412/p/jenkins_jj_14.html
 log4j第三方包地址：https://logging.apache.org/log4j/2.x
 
 java生成MD5：String md5 = DigestUtils.md5Hex(builder.toString().getBytes("GBK"));
