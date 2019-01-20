@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class TraverseMain.java {
+public class TraverseMain {
 	
 	public static void main(String[] args) {
 		//创建收集遍历结果的文件
@@ -68,7 +68,6 @@ public class TraverseMain.java {
 				StringBuffer buffer_obj = new StringBuffer("");
 				buffer_obj.append(tempStr + "\n");//读取的数据存储在StringBuffer缓存中
 				
-				
 				String every_file = buffer_obj.toString().replace("\n", "");
 				File every_file_obj = new File(every_file);
 				InputStreamReader isr = new InputStreamReader(new FileInputStream(every_file_obj));
@@ -88,12 +87,10 @@ public class TraverseMain.java {
 			reader_obj.close();
 			isr_obj.close();
 			
-			
-			}catch (IOException e) {
+			} catch (IOException e) {
 				//IOException e 可以作为处理万能的异常
 				e.printStackTrace();
 			}
 	}
-	
-	
+		
 }
