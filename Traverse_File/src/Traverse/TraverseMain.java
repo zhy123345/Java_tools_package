@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class Traverse_Main {
+public class TraverseMain.java {
 	
 	public static void main(String[] args) {
 		//创建收集遍历结果的文件
