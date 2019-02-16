@@ -8,7 +8,8 @@ python第三方包官方地址：https://pypi.org/project/
 
 C#调用堆栈：https://www.cnblogs.com/zhaobinyouth/p/7696294.html
 
-notepad++的xml格式检查https://blog.csdn.net/wangnan537/article/details/48712233
+notepad++的xml格式检查:
+https://blog.csdn.net/wangnan537/article/details/48712233
 http://sourceforge.net/projects/npp-plugins/files/XML%20Tools
 
 jenkins官方历史版本：http://mirrors.jenkins.io/war-stable/
