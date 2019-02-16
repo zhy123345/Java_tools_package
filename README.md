@@ -28,6 +28,8 @@ jenkins-multijob-plugin清华大学镜像站：http://mirrors.tuna.tsinghua.edu.
 
 jenkins账号权限管理：https://www.cnblogs.com/horizonli/p/5337204.html
 
+https://www.cnblogs.com/zz0412/p/jenkins_jj_14.html
+
 jenkins备份工程文件：https://www.cnblogs.com/zhaoqingqing/p/6607134.html?utm_source=itdadao&utm_medium=referral
 
 jenkins插件绑定：https://my.oschina.net/donhui/blog/479444
