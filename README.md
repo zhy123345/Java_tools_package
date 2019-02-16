@@ -26,6 +26,8 @@ Jenkins多个job并发执行：https://blog.csdn.net/sunsgne_AC/article/details/
 jenkins-multijob-plugin清华大学镜像站：http://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/jenkins-multijob-plugin/1.16/jenkins-multijob-plugin.hpi
                       https://www.cnblogs.com/cocoat/p/7606447.html
 
+jenkins账号权限管理：https://www.cnblogs.com/horizonli/p/5337204.html
+
 jenkins备份工程文件：https://www.cnblogs.com/zhaoqingqing/p/6607134.html?utm_source=itdadao&utm_medium=referral
 
 jenkins插件绑定：https://my.oschina.net/donhui/blog/479444
