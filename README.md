@@ -31,3 +31,5 @@ jenkins备份工程文件：https://www.cnblogs.com/zhaoqingqing/p/6607134.html?
 jenkins插件绑定：https://my.oschina.net/donhui/blog/479444
 
 java关闭数据库为什么rs != null：https://blog.csdn.net/mql0825123/article/details/40430697
+
+.net frame work下载：https://www.microsoft.com/zh-cn/download/details.aspx?id=17718
