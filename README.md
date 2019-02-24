@@ -1,13 +1,15 @@
 # 
 java接口类的说明：https://www.douban.com/note/61810488/
 
+maven下载地址：https://archive.apache.org/dist/maven/maven-3/
 
 python第三方包官方地址：https://pypi.org/project/
 \\100.120.195.142\d$，如果D盘开启共享，可用此方式访问
 
 C#调用堆栈：https://www.cnblogs.com/zhaobinyouth/p/7696294.html
 
-notepad++的xml格式检查https://blog.csdn.net/wangnan537/article/details/48712233
+notepad++的xml格式检查:
+https://blog.csdn.net/wangnan537/article/details/48712233
 http://sourceforge.net/projects/npp-plugins/files/XML%20Tools
 
 jenkins官方历史版本：http://mirrors.jenkins.io/war-stable/
@@ -24,6 +26,14 @@ Jenkins多个job并发执行：https://blog.csdn.net/sunsgne_AC/article/details/
 jenkins-multijob-plugin清华大学镜像站：http://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/jenkins-multijob-plugin/1.16/jenkins-multijob-plugin.hpi
                       https://www.cnblogs.com/cocoat/p/7606447.html
 
+jenkins账号权限管理：https://www.cnblogs.com/horizonli/p/5337204.html
+
+https://www.cnblogs.com/zz0412/p/jenkins_jj_14.html
+
 jenkins备份工程文件：https://www.cnblogs.com/zhaoqingqing/p/6607134.html?utm_source=itdadao&utm_medium=referral
 
+jenkins插件绑定：https://my.oschina.net/donhui/blog/479444
+
 java关闭数据库为什么rs != null：https://blog.csdn.net/mql0825123/article/details/40430697
+
+.net frame work下载：https://www.microsoft.com/zh-cn/download/details.aspx?id=17718
