@@ -1,9 +1,11 @@
 package Core_Java_Volumn_Ⅰ_Fundamentals.Main_book;
+import java.util.ArrayList;
+
 import Core_Java_Volumn_Ⅰ_Fundamentals.fourth_chapter.fourth_chapter;
 
 public class Main_book {
 	public final static String final_1="haha";
-	/*final关键字定义常量，表示final_1只能被赋值一次，类的常量定义在方法外部；一般要加static关键字*/
+	/*final关键字定义常量，表示final_1只能被赋值一次，类的常量定义在方法外部；static表示静态域；*/
 	//final_1 = "hhhh";//已经定义好的常量final_1不能更改值，如果再被赋值就会报错
 	
 	/*一个项目中允许有多个main方法，可以定义哪个为首要的main；且main方法必须声明为public*/
@@ -26,6 +28,13 @@ public class Main_book {
 		/**  第四章   */
 		fourth_chapter.start_fourth_chapter();//这是因为Java类并不是都具有面向对象特征，所以可直接调用类中的方法
 		
+	}
+	
+	public static void aa() {
+		ArrayList<String> Test = new ArrayList<String>();
+		Test.add("dd");
+		Test.add("eee");
+		Test.get(1);
 	}
 	
 }

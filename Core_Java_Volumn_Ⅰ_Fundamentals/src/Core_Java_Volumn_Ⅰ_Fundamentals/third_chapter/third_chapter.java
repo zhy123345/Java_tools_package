@@ -365,9 +365,15 @@ public class third_chapter {
 		 *4.int[] array_int = new int[10]，后面的new int[10]表示创建数组对象，10代表共有10个元素；
 		 *5.数组创建后，可以改变某个元素的值,但是不能改变长度；而后面讲的数组列表—Array list可以改变长度；
 		 */
+		
+		//数组的基本定义方式和变量方式
+		/*字符串类型的数组*/
+		String[] aarr = new String[2];
+		aarr[1] = "ww";//如果定义数组元素的具体值，前面不允许加数据类型
+		/*整数类型的数组*/
 		int[] zero = new int[0];//允许定义长度为0的数组，但不允许不声明长度
 		int[] array_int = new int[4];//这种创建的数组叫做  动态数组
-		/*数组创建后，所有元素是被初始化状态；int[]，String[]，boolean []数组元素初始化为0 null false*/
+		/*数组创建后，所有元素是被初始化状态；int[]，String[]，boolean[]数组元素初始化为0 null false*/
 		/*可以用for循环为数组每个元素赋值，如下：*/
 		for (int i=0; i < 4; i++) {
 			array_int[i] = i;
@@ -387,11 +393,12 @@ public class third_chapter {
 		
 		//数组初始化以及匿名数组——共有2个知识点
 		/*1.所谓数组初始化是指，创建数组实例对象后并赋予初值，这种创建的数组叫做  静态数组  */
-		int[] array_small = {2,4,6,8};
+		int[] array_small = {2,4,6,8};//数组手动赋值元素的方式
 		System.out.println("初始化数组也不能输出{0,1,2,3}结构形式 "+array_small);
 		/*2.匿名创建数组，是指不用声明新的数组变量，直接重新初始化一个数组变量值(即实例对象)，如下：*/
 		array_small = new int[] {10,12,14};//注意数组实例对象不是静态的，是可以改变的，即在内存栈区变量值已经改变；
 		System.out.println(Arrays.toString(array_small));
+		/*Java中，无论哪种数据结构，包括ArrayList，只要数据中元素被手动赋值，都叫做初始化*/
 		
 		//数组拷贝
 		/*数组拷贝就是把一个数组变量拷贝给另一个数组变量，变量值(即实例对象)并没有拷贝；
