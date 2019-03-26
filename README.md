@@ -40,3 +40,7 @@ java关闭数据库为什么rs != null：https://blog.csdn.net/mql0825123/articl
 
 
 notepad++插件xml：https://blog.csdn.net/wangnan537/article/details/48712233
+
+
+
+MD5生成第三方jar包：commons-codec-1.8.jar
