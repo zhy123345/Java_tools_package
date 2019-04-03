@@ -44,3 +44,5 @@ notepad++插件xml：https://blog.csdn.net/wangnan537/article/details/48712233
 
 
 MD5生成第三方jar包：commons-codec-1.8.jar
+
+Map.Entry<String, String>, Map.Entry最容易的解释：https://zhidao.baidu.com/question/561885308.html
