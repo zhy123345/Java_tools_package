@@ -37,3 +37,12 @@ jenkins插件绑定：https://my.oschina.net/donhui/blog/479444
 java关闭数据库为什么rs != null：https://blog.csdn.net/mql0825123/article/details/40430697
 
 .net frame work下载：https://www.microsoft.com/zh-cn/download/details.aspx?id=17718
+
+
+notepad++插件xml：https://blog.csdn.net/wangnan537/article/details/48712233
+
+
+
+MD5生成第三方jar包：commons-codec-1.8.jar
+
+Map.Entry<String, String>, Map.Entry最容易的解释：https://zhidao.baidu.com/question/561885308.html
