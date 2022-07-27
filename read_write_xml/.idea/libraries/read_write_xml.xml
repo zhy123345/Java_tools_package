@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="read_write_xml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dom4j-2.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dom4j-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
