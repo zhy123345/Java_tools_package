@@ -17,8 +17,8 @@ import org.dom4j.io.XMLWriter;
 
 public class Main {
 	
-	public static void main(String[] args) throws IOException {
-		//String new_sync_dir = args[0];
+	public static void main(String[] args) throws IOException { //throws是在定义方法时抛出异常，交给上级处理这个异常，所谓上级就是，谁调用这个方法是就是上级
+		//String new_sync_dir = args[0];						//而throw是在方法体内使用来抛出一个异常类的实例对象，try catch中可以配合使用throw，比如catch中的Exception e或者try语句块中的throw new Exception()；当然try catch也可以单独使用；
 		String new_sync_dir = ";q/x";
 		//String Ciconfig = args[1];
 		//String task = args[2];
@@ -42,7 +42,7 @@ public class Main {
 	public static ArrayList<String> analysis_CIconfig(String CIconfig) {
 		ArrayList<String> CI_Task_pclint_list = new ArrayList<String>();
 		
-		try {
+		try {	//使用try catch的原因，必定是下面创建的实例所属类，其构造方法带有throws声明，或者调用了throws声明的方法，如果不用try catch就会报错；
 			SAXReader reader = new SAXReader();
 			File CIconfig_file = new File(CIconfig);
 			Document document = reader.read(CIconfig_file);//加载xml文件，获取document对象

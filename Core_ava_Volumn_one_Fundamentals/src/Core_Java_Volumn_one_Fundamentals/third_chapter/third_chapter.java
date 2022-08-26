@@ -1,4 +1,4 @@
-package Core_Java_Volumn_one_Fundamentals.third_chapter;//在Java中，菜鸟第一步首先要声明包名，Java的程序结构是：src目录为包名目录的集合
+package Core_Java_Volumn_one_Fundamentals.third_chapter;	//在Java中，菜鸟第一步首先要声明包名，Java的程序结构是：src目录为包名目录的集合
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
@@ -12,7 +12,7 @@ import java.math.BigInteger;
 /*Java项目结构中，含有一个src包集合，src下可包含多个包(包就是文件夹)，
  *创建项目时默认包名为项目名；包下面才是Java文件，创建Java文件时其实是创建一个类
 */
-//import Core_Java_Volumn_Ⅰ_Fundamentals.java_base.base;//注意，如果Java文件中导入类模块，一定要是在声明包名语句之后导入
+//import Core_Java_Volumn_one_Fundamentals.java_base.base;//注意，如果Java文件中导入类模块或者包，一定要是在声明包名语句之后导入
 public class third_chapter {
 
 	public static String start_third_chapter() {

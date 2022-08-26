@@ -3,7 +3,7 @@ package modules;
 import java.util.ArrayList;
 
 public class ArrayList_operation {
-	
+	String g = new String();
 	public static void Differential_Set() {
 		ArrayList<String> List_1 = new ArrayList<String>();
 		List_1.add("q");
